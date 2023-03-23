@@ -1,9 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Header from '../components/Header.astro';
 ---
 
 <Layout title="Welcome to Astro.">
+	<Header/>
 	<main>
 		<h1>Welcome to <span class="text-gradient">My Astro Site</span></h1>
 		<p class="instructions">
@@ -26,13 +28,7 @@ import Card from '../components/Card.astro';
 				title="Themes"
 				body="Explore a galaxy of community-built starter themes."
 			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
 		</ul>
-		<a href="/test">Test page</a>
 	</main>
 </Layout>
 
