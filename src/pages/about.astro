@@ -1,13 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
+
+const pageTitle = "About Me";
 ---
 
-<Layout title="About me">
+<Layout title={pageTitle}>
 	<Header/>
 	<main>
 
-		<h1>About me</h1>
+		<h1>{pageTitle}</h1>
 		<h2>... and my new Astro site!</h2>
 
 		<p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
