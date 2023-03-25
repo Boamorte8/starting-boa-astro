@@ -1,3 +1,9 @@
 {
-  "conventionalCommits.scopes": ["project", "pages", "variables", "styles"]
+  "conventionalCommits.scopes": [
+    "project",
+    "pages",
+    "variables",
+    "styles",
+    "footer"
+  ]
 }
