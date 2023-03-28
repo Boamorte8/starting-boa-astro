@@ -5,6 +5,7 @@
     "variables",
     "styles",
     "footer",
-    "interactivity"
+    "interactivity",
+    "routing"
   ]
 }
